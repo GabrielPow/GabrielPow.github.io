@@ -39,34 +39,3 @@ Skills
 *  **Programming Languages:** Python, C, C++, Java, SQL.
 *  **Frameworks & Libraries:** React, Pandas, Node.js, Spring, FastAPI, Flask, LangChain.
 *  **Tools & Platforms:** PowerBI, PowerQuery, Git, Microsoft Office Suite (Excel, PowerPoint).
-
-<!--->
-Publications
-======
-{% if site.publications %}
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-{% else %}
-  <p>Available upon request or visible in the Portfolio tab.</p>
-{% endif %}
-  
-Talks
-======
-{% if site.talks %}
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-{% else %}
-  <p>Available upon request.</p>
-{% endif %}
-  
-Teaching
-======
-{% if site.teaching %}
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-{% else %}
-  <p>Details regarding Teaching Assistant roles are listed above under Experience.</p>
-{% endif %}
